@@ -1,0 +1,194 @@
+
+
+body {
+background-image: url(https://kogdavyydet.ru/wp-content/uploads/2022/01/Demon-Slayer-Kimetsu-no-Yaiba-1024x576.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+/* HEADER */
+
+.header {
+    background-color: rgba(0, 0, 1, 0.63);
+}
+.header__body {
+    
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__body-logo {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    cursor: pointer;
+    transition-timing-function: linear;
+    transition: 1s;
+}
+.header__body-logo:hover {
+    color: rgb(146, 255, 251);
+    font-size: 130%;
+}
+span {
+    color: rgb(146, 255, 251);
+}
+.header__body-logo:hover span {
+    color: rgb(255, 255, 255);
+    
+}
+.header__body-nav {
+}
+.nav__menu {
+   
+    color: whitesmoke;
+}
+.nav__menu-item {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav__menu-item:hover {
+    color: rgb(146, 255, 251);
+    transition: 0.7s;
+}
+
+/* MAIN */
+
+.container {
+    width: 1100px;
+    
+    margin: 100px 200px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.405);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+}
+.section-1 {
+    
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.section-1_block {
+    
+    width: 400px;
+    height: 500px;
+    background-image: url(https://static.hdrezka.ac/i/2020/5/9/c61b8c8f144efwf97q56h.png);
+    background-position: 50% 30%;
+    background-size: 50%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.section-1_title {
+    
+    width: 550px;
+    height: 500px;
+}
+h1 {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(210, 0, 116);
+    text-shadow: #000 4px 2px 4px;
+    font-size: 40px;
+}
+.text {
+    font-style: italic;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 110%;
+    font-weight: 100%;
+}
+.text-2 {
+    text-align: right;
+    margin: 50px 0px;
+    padding-right: 20px;
+    font-style: oblique;
+    color: rgba(30, 0, 255, 0.736);
+
+}
+.section__card {
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.card {
+    margin: 50px 200px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.405);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    transition-duration: 1s;
+}
+.card__title {
+    text-align: center;
+    margin: 15px 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 140%;
+}
+.card__img {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-image: url(https://i.pinimg.com/736x/b4/02/4f/b4024fe111038863e615ac1bc39ccb28.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    margin: 35px auto;
+}
+.card__info {
+    padding: 0px 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+.card__img-2 {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-image: url(https://th.bing.com/th/id/R.42d7f4e6bddb79961c8ae9eb835b6158?rik=K7GVKG10ukzkDA&riu=http%3a%2f%2fpm1.narvii.com%2f7296%2f7705a154c4025ca4eacd2868593284605cb7025fr1-564-495v2_00.jpg&ehk=kAm0cr6whf2t3nxkdl98lflXaoeANDSyQgH68lDf0NQ%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    margin: 35px auto;
+}
+.card__img-3 {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-image: url(https://th.bing.com/th/id/R.b4d876612ba96c806c72dc389beee8d2?rik=QrEQpk3GMqZePA&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20191104%2fb285492afd024733a206fd69db1dadb0.jpeg&ehk=4o80qEfjsG0cPTbcNjZ%2fmhSGkKk%2fhZoCbAVZ867pRbo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    margin: 35px auto;
+}
+.card__img-4 {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-image: url(https://th.bing.com/th/id/R.69884e674d4c921d8e08b30580b8ff6c?rik=uVu%2fdJFI6gtgkw&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    margin: 35px auto;
+}
+
+.card:hover {
+    width: 315px;
+    height: 415px;
+    cursor: pointer;
+}
